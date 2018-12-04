@@ -21,10 +21,12 @@ In this repository are markdown templates for various standard repository featur
 
 # Documentation #
 
-Useful information is Included in the [wiki](https://github.com/cemac/cemac_generic/wiki)
+Useful information for generic cemac tasks are included in the [wiki](https://github.com/cemac/cemac_generic/wiki)
 
 * [Choosing a Licence](https://github.com/cemac/cemac_generic/wiki/Licensing)
 * [Python Packages](https://github.com/cemac/cemac_generic/wiki/Python-packages)
+* [Google API](https://github.com/cemac/cemac_generic/wiki/Google-API)
+* [UNIX tools](https://github.com/cemac/cemac_generic/wiki/UNIX-tools)
 
 # Contributing #
 
