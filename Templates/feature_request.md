@@ -4,7 +4,7 @@ about: Suggest an idea for this project
 
 ---
 
-<!--- This lines are comments to prompt you for information to best help us understand your feature request  -->
+<!--- These lines are comments to prompt you for information to best help us understand your feature request  -->
 <!--- Provide a general summary of the issue in the Title above -->
 
 ## Detailed Description
