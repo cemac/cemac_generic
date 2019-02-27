@@ -6,6 +6,8 @@
 
 # CEMAC Generic #
 
+[![Join the chat at https://gitter.im/CEMAC-Leeds](https://badges.gitter.im/CEMAC-Leeds.svg)](https://gitter.im/CEMAC-Leeds?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Repository for generic CEMAC documentation/ repository management
 
 # Templates #
