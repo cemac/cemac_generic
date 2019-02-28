@@ -6,6 +6,8 @@
 
 # CEMAC Generic #
 
+[![Join the chat at https://gitter.im/CEMAC-Leeds](https://badges.gitter.im/CEMAC-Leeds.svg)](https://gitter.im/CEMAC-Leeds?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Repository for generic CEMAC documentation/ repository management
 
 # Templates #
@@ -24,7 +26,9 @@ In this repository are markdown templates for various standard repository featur
 Useful information for generic cemac tasks are included in the [wiki](https://github.com/cemac/cemac_generic/wiki)
 
 * [Choosing a Licence](https://github.com/cemac/cemac_generic/wiki/Licensing)
-* [Python Packages](https://github.com/cemac/cemac_generic/wiki/Python-packages)
+* [Github Dev practices](https://github.com/cemac/cemac_generic/wiki/Git-Protocols)
+* [Python Environements](https://github.com/cemac/cemac_generic/wiki/Python-Environments)
+* [Sensitive information on github](https://github.com/cemac/cemac_generic/wiki/Sensitive-information)
 * [Google API](https://github.com/cemac/cemac_generic/wiki/Google-API)
 * [UNIX tools](https://github.com/cemac/cemac_generic/wiki/UNIX-tools)
 
