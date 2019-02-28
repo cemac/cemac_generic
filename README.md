@@ -10,6 +10,13 @@
 
 Repository for generic CEMAC documentation/ repository management
 
+# Tools #
+
+[Tools](Tools) Contains a suite of generic Tools relating to:
+* Formatting Scripts
+* [Archiving](Tools/archiving)
+* [ARC3](Tools/ARCTools)
+
 # Templates #
 
 In this repository are markdown templates for various standard repository features
@@ -27,7 +34,7 @@ Useful information for generic cemac tasks are included in the [wiki](https://gi
 
 * [Choosing a Licence](https://github.com/cemac/cemac_generic/wiki/Licensing)
 * [Github Dev practices](https://github.com/cemac/cemac_generic/wiki/Git-Protocols)
-* [Python Environements](https://github.com/cemac/cemac_generic/wiki/Python-Environments)
+* [Python Environements](https://github.com/cemac/cemac_generic/wiki/Python--Environments)
 * [Sensitive information on github](https://github.com/cemac/cemac_generic/wiki/Sensitive-information)
 * [Google API](https://github.com/cemac/cemac_generic/wiki/Google-API)
 * [UNIX tools](https://github.com/cemac/cemac_generic/wiki/UNIX-tools)
