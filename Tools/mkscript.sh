@@ -1,9 +1,9 @@
-#!/bin/bash -       
+#!/bin/bash -
 #title           :mkscript.sh
 #description     :This script will make a header for a bash script.
 #author :bgw + cemac
 #date            :20190228
-#version         :na    
+#version         :na
 #usage :bash mkscript.sh
 #Note: adapted from active state code recipes
 #bash_version    :4.1.5(1)-release
@@ -29,7 +29,7 @@ _select_title(){
     [ "${title: -3}" != '.sh' ] && title=${title}.sh
 
     # Check to see if the file exists already.
-    if [ -e $title ] ; then 
+    if [ -e $title ] ; then
         printf "\n%s\n%s\n\n" "The script \"$title\" already exists." \
         "Please select another title."
         _select_title
