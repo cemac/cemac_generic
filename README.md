@@ -27,7 +27,7 @@ In this repository are markdown templates for various standard repository featur
 * [Code Change Report](https://github.com/cemac/cemac_generic/blob/master/Templates/CEMAC_CodeChangeReport_Template.md)
 * [Issue Template (features)](https://github.com/cemac/cemac_generic/blob/master/Templates/feature_request.md)
 * [Issue Template (bugs)](https://github.com/cemac/cemac_generic/blob/master/Templates/bug_report.md)
-* [Readme Template (standard)]()
+* [Readme Template (standard)](https://github.com/cemac/cemac_generic/blob/master/Templates/README.md)
 * [Major Release Template *(coming soon)*]()
 * [Contributor template](https://github.com/cemac/cemac_generic/blob/master/Templates/CONTRIBUTING.md)
 
