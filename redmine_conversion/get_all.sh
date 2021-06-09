@@ -7,6 +7,7 @@ siteaddress='https://www.see.leeds.ac.uk/redmine/public/projects/glamleeds/wiki/
 # copy and paste the command below
 # Do not versiosn control this command
 # Remove the bit before -H as we will alter the addresss in the script
+# You might have to just past curl the curloptions in
 curloptions=
 
 echo "glamleeds pages"

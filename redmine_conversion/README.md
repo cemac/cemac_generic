@@ -23,17 +23,17 @@ There is also a crazy tag creation error r515-r514 (in revision comments: safe t
 5. `git svn clone https://see.leeds.ac.uk/svn/glamleeds/  --no-metadata --trunk=/trunk --branches=/developers/* --tags=/tags/* -A authors-transform.txt ../../temp/ -r 0:515`
 6. `git svn clone https://see.leeds.ac.uk/svn/glamleeds/  --no-metadata --trunk=/trunk --branches=/developers/* --tags=/tags/* -A authors-transform.txt ../../temp/ -r 515:HEAD`
 Glam gives some weird perl permission error trying to convert the svn ignore, so ignored the step to convert svn ignore (can do manually)
-7. git init --bare ../new-bare.git
-8. cd ../new-bare.git
-9. git symbolic-ref HEAD refs/heads/trunk
-10. cd ../temp
-11. git remote add bare ../new-bare.git
-12. git config remote.bare.push 'refs/remotes/*:refs/heads/*'
-13. git push bare
-14. cd ../new-bare.git
-15. git branch -m trunk master
-
-
+7. `git init --bare ../new-bare.git`
+8. `cd ../new-bare.git`
+9. `git symbolic-ref HEAD refs/heads/trunk`
+10. `cd ../temp`
+11. `git remote add bare ../new-bare.git`
+12. `git config remote.bare.push 'refs/remotes/*:refs/heads/*'`
+13. `git push bare`
+14. `cd ../new-bare.git`
+15. `git branch -m trunk master`
+16.
+```bash
 git for-each-ref --format='%(refname)' refs/heads/tags |
 cut -d / -f 4 |
 while read ref
@@ -41,10 +41,42 @@ do
   git tag "$ref" "refs/heads/tags/$ref";
   git branch -D "tags/$ref";
 done
-Create a blank private repo in glam leeds
-git remote add origin git@github.com:GLAM-Leeds/glamleeds.git
-git push --all origin
-git push --tags origin
+```
+17. Create a blank private repo in glam leeds`
+18. `git remote add origin git@github.com:GLAM-Leeds/glamleeds.git`
+19. `git push --all origin`
+20. `git push --tags origin`
+So we need to do this separately for the glam folders
+
+21. `rm -rf ../temp ../new-bare.git`
+22.`` git svn clone https://see.leeds.ac.uk/svn/glamleeds/  --no-metadata --trunk=/glam -A authors-transform.txt ../../temp/ `
+Glam gives some weird perl permission error trying to convert the svn ignore, so ignored the step to convert svn ignore (can do manually)
+23. `git init --bare ../new-bare.git`
+24. `cd ../new-bare.git`
+25. `git symbolic-ref HEAD refs/heads/trunk`
+26. `cd ../temp`
+27. `git remote add bare ../new-bare.git`
+28. `git config remote.bare.push 'refs/remotes/*:refs/heads/*'`
+29. `git push bare`
+30. `cd ../new-bare.git`
+31. `git branch -m trunk master`
+32.
+
+```bash
+git for-each-ref --format='%(refname)' refs/heads/tags |
+cut -d / -f 4 |
+while read ref
+do
+  git tag "$ref" "refs/heads/tags/$ref";
+  git branch -D "tags/$ref";
+done
+```
+
+33. Create a blank private repo in glam leeds
+34. `git remote add origin git@github.com:GLAM-Leeds/glamleeds-glam.git`
+35. `git push --all origin`
+36. `git push --tags origin`
+
 
 
 ## Converting Redmine textile Wiki to GitHub MarkDown
@@ -59,4 +91,15 @@ git push --tags origin
 5. run `./get_all.sh`
 6. you should now have a bunch of .txt files. additional files must be added separately by using full paths such as
     a. redmine/public/attachments/<ID>/<filename>
-7.
+7. install pandoc or use machine with pandoc installed and run `./convert_to_md.sh`
+
+## Creating Wiki
+
+1. in the desired repo create the first generic wiki pages
+2. clone the wiki git clone git@github.com:<organisation>/<reponame>.wiki.git
+3. cd into repo and copy the create md files and any addtional files into that directory
+4. rename index page `mv Index.md Home.md`
+5. install `rename` and run `find . -name "*_*" -type f | rename 's/_/ /g'`
+6. `git add .` `git commit -am ':tada: upload old wiki'` `git push`
+7. The raw wiki will now appear
+8. If the wiki is big then you may wish to Tidy up nav bar
