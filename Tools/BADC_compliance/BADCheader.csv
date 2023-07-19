@@ -1,0 +1,18 @@
+Conventions,G,BADC-CSV,1,,,,,,
+title,G,
+creator,G,"Author_name",Leeds,,,,,,
+contributor,G,"contributor_name",Leeds,,,,,,
+reference,G,"Paper or code reference",,,,,,,
+long_name,1,"column_1_name",,,,,,,
+long_name,2,"column_2_name",,,,,,,
+long_name,3,"column_3_name",,,,,,,
+location_name,G,"Region/Location name",,,,,,,
+observation_station,G,"station name",,,,,,,
+location ,G,"lat,lon",,,,,,,
+history ,G,"file_history",,,, 
+comments,G,"comments",,,,,,,
+comments,G,"comments",,,,,,,
+comments,G,"comments",,,,,,,,,
+data
+1,2,3
+end_data
