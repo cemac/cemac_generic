@@ -9,6 +9,7 @@
 [![Join the chat at https://gitter.im/CEMAC-Leeds](https://badges.gitter.im/CEMAC-Leeds.svg)](https://gitter.im/CEMAC-Leeds?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/cemac/cemac_generic.svg)](https://github.com/cemac/cemac_generic/releases) [![GitHub top language](https://img.shields.io/github/languages/top/cemac/cemac_generic.svg)](https://github.com/cemac/cemac_generic) [![GitHub issues](https://img.shields.io/github/issues/cemac/cemac_generic.svg)](https://github.com/cemac/cemac_generic/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/cemac/cemac_generic.svg)](https://github.com/cemac/cemac_generic/commits/master) [![GitHub All Releases](https://img.shields.io/github/downloads/cemac/cemac_generic/total.svg)](https://github.com/cemac/cemac_generic/releases) ![GitHub](https://img.shields.io/github/license/cemac/cemac_generic.svg)
  
 
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff)](https://bsky.app/profile/cemac.bsky.social)
 
 Repository for generic CEMAC documentation/ repository management
 
